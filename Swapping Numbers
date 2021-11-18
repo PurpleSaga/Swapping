@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int n,n2,i,temp=0;
+clrscr();
+cout<<"enter first number: ";
+cin>>n;
+cout<<"enter second number: ";
+cin>>n2;
+cout<<"the numbers are\nn= "<<n<<"\tn2= "<<n2;
+temp=n;
+n=n2;
+n2=temp;
+cout<<"\nthe numbers after swapping are\nn= "<<n<<"\tn2= "<<n2;
+
+}
